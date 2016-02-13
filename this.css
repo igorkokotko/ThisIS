@@ -1,0 +1,75 @@
+li:before{
+    content:"|";
+}
+li:last-child:before{
+    content:none;
+}
+li{
+    display:inline;
+    list-style:none;
+    padding:6px;
+    position: relative;
+    float:right;
+    right: 200px;
+    top: 41px;
+    font-size:22px;
+    font-family:"Times New Roman", Times, serif;   
+    text-shadow:5px 5px 10px black;
+}
+figure{
+    float: right;
+    position: relative;
+    left: 120px;
+    top: 210px;
+}
+figcaption{
+    position: absolute;
+    background: rgba(0,0,0,0.75);
+    color: white;
+    padding: 5px 14px;
+    top: 139px;
+}
+h1{
+    float: right;
+    position: absolute;
+    top: 120px;
+    right: 580px;
+}
+a:hover{
+    cursor:crosshair;
+}
+#button{
+    display:inline-block;
+    position: relative;
+    top: 440px;
+    line-height: 25px;
+    height: 25px;
+    width: 19%;
+    padding: 5px;
+    left: 500px;
+}
+.button{
+    border:2px inset #d4d4d4;
+}
+.button1{
+    float: left;
+    position: relative;
+    right: 250px;
+}
+.button2{
+    float:left
+}
+.button3{
+    float: left;
+    position: relative;
+    left: 440px;
+    top: -43px;
+}
+span{
+    content: url(http://cpsrk.foi.hr/sites/default/files/styles/large/public/field/image/span.png?itok=nrBdCfhF);
+    width: 43px;
+    position: relative;
+    height: 26px;
+    bottom: -7px;
+}
+
