@@ -1,3 +1,10 @@
+body{
+    margin:1px 8px 1px 8px;
+}
+@font-face{
+    font-family:'Lobster', cursive;
+    src:url(https://fonts.googleapis.com/css?family=Lobster)
+}
 li:before{
     content:"|";
 }
@@ -9,18 +16,18 @@ li{
     list-style:none;
     padding:6px;
     position: relative;
-    float:right;
-    right: 200px;
+    left:660px;
     top: 41px;
     font-size:22px;
     font-family:"Times New Roman", Times, serif;   
     text-shadow:5px 5px 10px black;
 }
 figure{
-    float: right;
     position: relative;
-    left: 120px;
-    top: 210px;
+    left: 390px;
+    top: 160px;
+    width:30%;
+    height:50%;
 }
 figcaption{
     position: absolute;
@@ -41,11 +48,10 @@ a:hover{
 #button{
     display:inline-block;
     position: relative;
-    top: 440px;
+    top: 225px;
     line-height: 25px;
     height: 25px;
     width: 19%;
-    padding: 5px;
     left: 500px;
 }
 .button{
@@ -55,21 +61,34 @@ a:hover{
     float: left;
     position: relative;
     right: 250px;
+    background-image:url(http://static.tumblr.com/c25db28edc166bfe367476a32913b4c5/0ztvotg/UKJn3km2m/tumblr_static_background-cool-backgrounds-vladstudio-2616004.jpg);
 }
 .button2{
-    float:left
+    float:left;
+}
+.button2:hover{
+    transform: translate(60px, 60px) scale(1.5, 1.5) rotate(45deg);
+    border-width: 2px 10px 4px 10px;
+    cursor:no-drop;
 }
 .button3{
     float: left;
     position: relative;
     left: 440px;
     top: -43px;
+    box-shadow: 20px 20px 10px #888888;
 }
-span{
-    content: url(http://cpsrk.foi.hr/sites/default/files/styles/large/public/field/image/span.png?itok=nrBdCfhF);
+.button3 .pict {
+    content: url(http://cpsrk.foi.hr/sites/default/files/styles/large/public/field/image/span.png?itok=nrBdCfhF) ; 
     width: 43px;
     position: relative;
     height: 26px;
     bottom: -7px;
+}
+.button1 .para {
+    font-family:"Lobster";
+}
+.button1 p{
+    color:#9BDCA0;
 }
 
