@@ -265,13 +265,78 @@ to {
     display:flex;
     justify-content:center;
 }
-.background{
+#project{
     display: flex;
     justify-content: space-around;
-    width: 54%;
-    height: 286px;
-    background-image:url(images/photo/portfolio.jpg);
-    background-repeat:no-repeat;
-    background-size: 100%;
-    z-index:2;
+    flex-flow: row wrap;
 }
+.part1,.part2,.part3,.part4{
+    margin:auto;
+    padding-bottom: 15px
+}
+.part1{
+    background-image: url(images/photo/parts/portfolio.jpg);
+    background-repeat: no-repeat;
+    width: 184px;
+    height: 275px;
+    font-family: 'Finger Paint', cursive;
+}
+.part2{
+    background-image: url(images/photo/parts/portfolio2.jpg);
+    background-repeat: no-repeat;
+    width: 184px;
+    height: 275px;
+}
+.part3{
+    background-image: url(images/photo/parts/portfolio3.jpg);
+    background-repeat: no-repeat;
+    width: 184px;
+    height: 275px;
+}
+.part4{
+    background-image: url(images/photo/parts/portfolio4.jpg);
+    background-repeat: no-repeat;
+    width: 184px;
+    height: 275px;
+}
+.centered {
+    background-color: #cce6ff;
+    opacity: 0.7;
+    text-decoration: none;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 7em;
+    width: 100%;
+    height: 60%;
+}
+.next {
+    background-color: #cce6ff;
+    opacity: 0.7;
+    text-decoration: none;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 5em;
+    width: 100%;
+    height: 71%;
+}
+.after{
+    background-color: #cce6ff;
+    opacity: 0.7;
+    text-decoration: none;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 6em;
+    width: 94%;
+    height: 65%;
+}
+.fourth{
+    background-color: #cce6ff;
+    opacity: 0.7;
+    text-decoration: none;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 6em;
+    width: 99%;
+    height: 65%;
+}
+
