@@ -339,4 +339,18 @@ to {
     width: 99%;
     height: 65%;
 }
-
+#wrap{
+    background-image: url(images/planwet/planwet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 615px;
+}
+@media (max-width: 600px){
+    #wrap{
+        transform: rotate(90deg);
+    }
+    #wrap>.main-content{
+        transform: rotate(-90deg);
+    }
+}
