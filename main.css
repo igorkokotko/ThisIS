@@ -155,11 +155,16 @@
 .flex-item-1{
     margin:auto;
 }
+.flex-item-1 img {
+    border-radius: 30px;
+}
 .flex-item-2{
     margin:auto;
     padding-top:20px;
     text-align: center;
     align-self: center;
+    font-family: 'Finger Paint', cursive;
+    letter-spacing: 2px;
 }
 @media all and (max-width: 900px) { 
   #sectionabout{
