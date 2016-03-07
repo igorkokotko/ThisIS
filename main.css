@@ -139,7 +139,7 @@
     margin-bottom: 17px;
     margin-top: 30px;
 }
-@media all and (max-width: 600px) { /*Help size from 84% to 100% */
+@media all and (max-width: 600px) {
   .parent{
       height:50px;
   }
@@ -262,13 +262,10 @@ to {
     font-family:'Finger Paint', cursive;
 }
 #project{
-    display:flex;
-    justify-content:center;
-}
-#project{
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+    margin-bottom: 150px;
 }
 .part1,.part2,.part3,.part4{
     margin:auto;
@@ -345,6 +342,7 @@ to {
     background-repeat: no-repeat;
     background-size:contain;
     height: 615px;
+    margin-bottom: 75px;
 }
 @media (max-width: 600px){
     #wrap{
@@ -353,4 +351,76 @@ to {
     #wrap>.main-content{
         transform: rotate(-90deg);
     }
+}
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background-image: url(images/photo/parts/footer.jpg);
+  text-align: center;
+}
+.fa{
+    margin-right:5px;
+}
+i.fa.fa-facebook-square:hover {
+    transform: scale(1.5) rotate(360deg);
+    transition-duration: 1.5s;
+}
+i.fa.fa-steam-square:hover {
+    transform: scale(1.5) rotate(360deg);
+    transition-duration: 1.5s;
+}
+i.fa.fa-github-square:hover{
+    transform: scale(1.5) rotate(360deg);
+    transition-duration: 1.5s;
+}
+i.me {
+   padding-right: 35px;
+}
+@media (max-width: 600px){
+    i.me{
+        padding-right: 10px;
+    }
+}
+.footer a {
+    font-size: 36px;
+}
+#back-top{	
+	position:fixed;
+	bottom:30px;
+	margin-left:50px
+}
+
+#back-top a{
+	width:64px;
+	display:block;
+	text-align:center;
+	font:11px/100% Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#bbb;
+	transition:1s;
+}
+#back-top a:hover{color:#000;}
+#back-top span{
+	width:64px;
+	height:64px;
+	display:block;
+	margin-bottom:7px;
+	background:#ddd url(images/planwet/arrow.png) no-repeat center center;
+	border-radius:15px;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+}
+#back-top a:hover span{background-color:#777}
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/planwet/gears.gif') 50% 50% no-repeat rgb(249,249,249);
 }

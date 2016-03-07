@@ -47,7 +47,7 @@ body,.cube {
   background: #d5d5d5;
 }
 
-@media all and (max-width: 600px) { /*Help size from 84% to 100% */
+@media all and (max-width: 600px) {
   .site-navigation ul {
     justify-content:space-around;
     padding: 0;
