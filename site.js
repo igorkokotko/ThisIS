@@ -56,3 +56,7 @@ $(document).ready(function(){
 $(window).load(function() {
 	$(".loader").fadeOut("slow");
 })
+
+$('.btn').click(function(){
+ alert("Don't Panic, just send me massage!");
+});
