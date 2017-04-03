@@ -263,13 +263,13 @@ to {
 .project{
     text-align: center;
     padding: 10px 5px 10px 5px;
-    font-family:'Finger Paint', cursive;
 }
 #project{
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
     margin-bottom: 150px;
+    font-family: 'Finger Paint', cursive;	
 }
 .part1,.part2,.part3,.part4{
     margin:auto;
